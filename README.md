@@ -59,6 +59,8 @@ To verify that the installation was successful, go to Foreman, top bar **Adminis
 
 | Foreman Version | Plugin Version |  Kubevirt API Version |
 | --------------- | --------------:|  -------------------- |
+| >= 3.16.x       | ~> 0.5.x       |  v1                   |
+| >= 3.0.x        | ~> 0.4.x       |  v1alpha3             |
 | >= 1.21.x       | ~> 0.1.x       |  v1alpha3             |
 
 ## Usage

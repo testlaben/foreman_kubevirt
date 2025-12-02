@@ -1,3 +1,11 @@
+### 0.5.0 / 2025-12-02
+
+* Update KubeVirt API version from v1alpha3 to v1 (#TBD)
+* Update fog-kubevirt dependency to ~> 1.7 (#TBD)
+* Add support for Foreman 3.16+ / Satellite 6.18+ (#TBD)
+* Update minimum Ruby version to 2.7 (#TBD)
+* Improve compatibility with latest KubeVirt 1.6.x releases (#TBD)
+
 ### 0.4.0 / 2025-02-11
 
 * Compatibility with Zeitwerk and Rails 7 (#160)

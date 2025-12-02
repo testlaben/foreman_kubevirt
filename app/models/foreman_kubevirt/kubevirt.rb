@@ -326,7 +326,7 @@ module ForemanKubevirt
         :kubevirt_log        => logger,
         :kubevirt_verify_ssl => ca_cert.present?,
         :kubevirt_ca_cert    => ca_cert,
-        :kubevirt_version    => "v1alpha3"
+        :kubevirt_version    => "v1"
       )
     rescue OpenSSL::X509::CertificateError
       raise_certification_failure_exception

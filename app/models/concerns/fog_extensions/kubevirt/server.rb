@@ -29,9 +29,9 @@ module FogExtensions
         interfaces.map(&:mac_address).compact.min
       end
 
-      # TODO: Update once new API for reporting IP_ADRESSSES is set
       def ip_addresses
-        [interfaces&.first&.ip_address]
+        # KubeVirt v1 API provides comprehensive IP address reporting through VMI status
+        interfaces&.map(&:ip_address)&.compact || []
       end
 
       def poweroff
